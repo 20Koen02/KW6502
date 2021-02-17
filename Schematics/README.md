@@ -16,7 +16,7 @@ but given the simplicity of the project it should not be a problem - and he is a
 I wanted more with my build. I wanted to test my understanding of how address decoding works.
 My build provides 24K RAM, 4K VIA shadow, 4K ACIA shadow and 32K ROM.
 
-![Address Compare Image](./address-compare.png?raw=true)
+<img src="./address-compare.png?raw=true" width="800px" alt="Address Compare Image">
 
 | Segment | BE6502        | KW6502        |
 |---------|---------------|---------------|
