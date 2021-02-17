@@ -9,6 +9,6 @@ to typical machines of the early 1980s. If you haven't seen Ben's videos, I woul
 
 Compared to Ben's 6502 build I introduced the following changes:
 1. Changed [address decoder logic](Schematics/README.md#address-decoder-change)
-2. Added [ACIA chip for serial communication](Schematics/README.md#extra-acia-chip-for-serial-communication)
+2. Added [ACIA chip for serial communication](Schematics/README.md#acia-chip-for-serial-communication)
 3. Changed [compiler from VASM to CC65](Schematics/README.md#migration-from-vasm-to-cc65)
 4. Changed [system clock to 1.8432 MHz](Schematics/README.md#changed-system-clock)
