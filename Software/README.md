@@ -4,10 +4,10 @@ This documentation provides necessary insight into software provided in the repo
 
 ## Projects
 
-1. [LCD Test](01_lcd_test/README.md): This program puts "Hello, world!" on the LCD
-2. [Serial Test](02_serial_test/README.md): This program reads and writes to the serial monitor.
-3. [Serial and LCD](03_serial_and_lcd/README.md): This program reads from the serial monitor and output it on both the lcd and serial monitor
-4. WIP [Shell](04_shell/README.md): This program creates a shell on both the lcd and serial monitor.
+1. [LCD Test](01_lcd_test): This program puts "Hello, world!" on the LCD
+2. [Serial Test](02_serial_test): This program reads and writes to the serial monitor.
+3. [Serial and LCD](03_serial_and_lcd): This program reads from the serial monitor and output it on both the lcd and serial monitor
+4. WIP [Shell](04_shell): This program creates a shell on both the lcd and serial monitor.
 
 ## Setting up development environment on Windows
 
