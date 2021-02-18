@@ -1,5 +1,5 @@
-.segment "CODE"
-    .include "main.s"
+.segment "ZP"
+.segment "RAM"
 
 .segment "ACIA"
     acia_data:     .res 1 ; Read: Receiver Data Register - Write: Transmit Data Register
@@ -24,6 +24,10 @@
     via_ifr:   .res 1 ; Interrupt Flag Register
     via_ier:   .res 1 ; Interrupt Enable Register
     via_a_noh: .res 1 ; Same as Register "A" (via_a) except no "Handshake"
+
+.segment "CODE"
+    .include "main.s"
+
 
 .segment "VECTORS"
     .word nmi
