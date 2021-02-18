@@ -2,7 +2,7 @@
 
 This documentation provides all the information regarding my variant of BE6502 computer
 
-*The schematic schematic is work in progress*
+*The schematic is work in progress*
 
 ## Deviations from Ben Eater's design
 This section describes details of each deviation from original BE6502 design.
