@@ -4,7 +4,7 @@ This repository contains some of the work in progress during my build of Ben Eat
 to typical machines of the early 1980s. If you haven't seen Ben's videos, I would strongly suggest you start there:
 [Ben Eater's 6502 project](https://eater.net/6502)
 
-<img src="./KW6502.png?raw=true" width="800px" alt="KW6502">
+<img src="./KW6502.jpg?raw=true" width="800px" alt="KW6502">
 
 ## What is different
 
