@@ -8,6 +8,8 @@ This documentation provides necessary insight into software provided in the repo
 2. [Serial Test](02_serial_test): This program reads and writes to the serial monitor.
 3. [Serial and LCD](03_serial_and_lcd): This program reads from the serial monitor and output it on both the lcd and serial monitor
 4. WIP [Shell](04_shell): This program creates a shell on both the lcd and serial monitor.
+5. [MicroChess](05_microchess): Microchess for the Kim-1 was the first game program sold for home computers. After six months of development, the first copy was shipped on December 18, 1976.
+6. [Button Test](06_button_test): This program listens for button presses and runs different code for every button
 
 ## Setting up development environment on Windows
 
