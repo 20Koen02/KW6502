@@ -61,3 +61,12 @@ write_lcd:
     sta via_a
     pla
     rts
+
+backspace_lcd:
+    lda #%00010000
+    jsr lcd_instruction
+    lda #%00100000
+    jsr write_lcd
+    lda #%00010000
+    jsr lcd_instruction
+    rts

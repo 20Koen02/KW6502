@@ -16,10 +16,10 @@ read_serial:
 
 write_serial:
     pha
-_wait_tx_empty:
+@wait_tx_empty:
     lda acia_status
     and #%00010000
-    beq _wait_tx_empty
+    beq @wait_tx_empty
 
     pla
     sta acia_data ; Send to ACIA

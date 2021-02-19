@@ -1,5 +1,3 @@
-.segment "ZP"
-.segment "RAM"
 
 .segment "ACIA"
     acia_data:     .res 1 ; Read: Receiver Data Register - Write: Transmit Data Register

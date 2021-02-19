@@ -1,4 +1,4 @@
-all: lcd_test.rom
+all: hello_world.rom
 
 clean:
 	rm -f *.lst *.map *.o *.rom

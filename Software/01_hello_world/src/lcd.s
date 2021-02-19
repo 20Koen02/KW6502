@@ -10,7 +10,7 @@ init_lcd:
 
     lda #%00111000 ; Set 8-bit mode; 2-line display; 5x8 font
     jsr lcd_instruction
-    lda #%00001100 ; Display on; cursor on; blink off
+    lda #%00001100 ; Display on; cursor off; blink off
     jsr lcd_instruction
     lda #%00000110 ; Increment and shift cursor; don't shift display
     jsr lcd_instruction
@@ -18,18 +18,18 @@ init_lcd:
     jsr lcd_instruction
     rts
 
-_lcd_wait:
+lcd_wait:
     pha
     lda #%00000000  ; Port B is input
     sta via_ddrb
-_lcdbusy:
+@lcdbusy:
     lda #RW
     sta via_a
     lda #(RW | E)
     sta via_a
     lda via_b
     and #%10000000
-    bne _lcdbusy
+    bne @lcdbusy
 
     lda #RW
     sta via_a
@@ -39,7 +39,7 @@ _lcdbusy:
     rts
 
 lcd_instruction:
-    jsr _lcd_wait
+    jsr lcd_wait
     sta via_b
     lda #0         ; Clear RS/RW/E bits
     sta via_a
@@ -51,7 +51,7 @@ lcd_instruction:
 
 write_lcd:
     pha
-    jsr _lcd_wait
+    jsr lcd_wait
     sta via_b
     lda #RS         ; Set RS; Clear RW/E bits
     sta via_a

@@ -10,6 +10,7 @@ This documentation provides necessary insight into software provided in the repo
 4. WIP [Shell](04_shell): This program creates a shell on both the lcd and serial monitor.
 5. [MicroChess](05_microchess): Microchess for the Kim-1 was the first game program sold for home computers. After six months of development, the first copy was shipped on December 18, 1976.
 6. [Button Test](06_button_test): This program listens for button presses and runs different code for every button
+7. [Hello World C](07_hello_world_c): This program is written in C and puts "Hello, world!" on the LCD
 
 ## Setting up development environment on Windows
 
