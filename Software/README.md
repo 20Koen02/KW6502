@@ -15,10 +15,10 @@ This documentation provides necessary insight into software provided in the repo
 
 One important thing to note is that you might need to install FTDI Virtual COM Port drivers.
 
-You need to install [Cygwin](https://cygwin.com/), but while installing, 
-make sure you add the following packages: `python2`, `pkg-config`, `git`, `make`, `gcc-core`. 
-This should be enough to clone the `cc65` repository, and after building make sure
-to issue `make avail` and `make install` to enable invocation from command line.
+You will need the cc65 compiler toolchain. Click on "Windows Snapshot" at the bottom on this page https://cc65.github.io/.
+Extract the contents of the zip to a folder - I chose `C:\cc65` - and [add this folder to your path](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
+
+To flash the eeprom I use the TL866II Plus programmer. [You can find it's software here](http://forums.xgecu.com/viewthread.php?tid=20&page=1&extra=#pid23)
 
 For serial communication you can use regular PuTTy, but it doesn't have the feature of sending files using XModem protocol,
 so it's really recommended to use ExtraPuTTy instead.
@@ -28,14 +28,7 @@ so it's really recommended to use ExtraPuTTy instead.
 Now you need to build the first program. Go to `Software/rom/01_lcd_test` folder and run:
 
 ```sh
-make clean all test
+make
 ```
 
 You can find the binary file here: `Software/01_lcd_test/build/lcd_test.rom`
-
-## Building software
-
-General rule is simple: `make` should be sufficient for all the build/installation. The following `make` targets are to be used for building software:
-
-- `all` - build the project
-- `clean` - delete all temporary files
