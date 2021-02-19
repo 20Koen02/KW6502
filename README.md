@@ -16,7 +16,7 @@ Compared to Ben's 6502 build I introduced the following changes:
 
 ## Software
 
-All software for the KW6502 is written in assembly.
+Most software for the KW6502 is written in assembly. I got C code working, but I just haven't used it that much yet.
 The software should work on any reasonable clock speed and can be easily configured for any similar system.
 Most of the software makes use of the serial expansion, so a lot of software can't be run on the default Ben Eater 6502 project.
 More information on the software [can be found here](Software)
