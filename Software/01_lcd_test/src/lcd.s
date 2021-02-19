@@ -10,7 +10,7 @@ init_lcd:
 
     lda #%00111000 ; Set 8-bit mode; 2-line display; 5x8 font
     jsr lcd_instruction
-    lda #%00001110 ; Display on; cursor on; blink off
+    lda #%00001100 ; Display on; cursor on; blink off
     jsr lcd_instruction
     lda #%00000110 ; Increment and shift cursor; don't shift display
     jsr lcd_instruction

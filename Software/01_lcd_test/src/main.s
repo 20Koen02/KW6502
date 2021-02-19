@@ -16,7 +16,7 @@ print:
 exit:
   jmp exit
 
-message: .asciiz "Hello, world!"
+message: .asciiz "     KW6502                               Hello World!"
 
 nmi:
     rti
