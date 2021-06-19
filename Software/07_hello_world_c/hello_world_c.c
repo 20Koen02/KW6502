@@ -1,7 +1,7 @@
 #include <string.h>
 #include "lcd.h"
 
-char message[] = "     KW6502                               Hello World!";
+const char message[] = "     KW6502                               Hello World!";
 
 void init_lcd() {
     write_ddrb(0b11111111);         // Set all pins on data direction register B to output
