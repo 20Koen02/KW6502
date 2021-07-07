@@ -11,6 +11,7 @@ This documentation provides necessary insight into software provided in the repo
 5. [MicroChess](05_microchess): Microchess for the Kim-1 was the first game program sold for home computers. After six months of development, the first copy was shipped on December 18, 1976.
 6. [Button Test](06_button_test): This program listens for button presses and runs different code for every button
 7. [Hello World C](07_hello_world_c): This program is written in C and puts "Hello, world!" on the LCD
+8. [Microsoft Basic](08_ms_basic): OSI 6502 BASIC VERSION 1.0 REV 3.2, COPYRIGHT 1977 BY MICROSOFT CO.
 
 ## Setting up development environment on Windows
 
