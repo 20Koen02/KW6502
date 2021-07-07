@@ -3,7 +3,8 @@
 OSI 6502 BASIC VERSION 1.0 REV 3.2
 COPYRIGHT 1977 BY MICROSOFT CO.
 
-Please set serial port baud rate to 9600
+Please set serial port baud rate to 9600.
+There are a few example BASIC programs in de programs folder.
 Included is a slow_paste ahk script to paste from clipboard at a lower pace.
 
 MODIFIED BY KOEN VAN WIJNGAARDEN 2021:
