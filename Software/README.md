@@ -27,7 +27,7 @@ so it's really recommended to use ExtraPuTTy instead.
 
 ## Running the simplest possible program
 
-Now you need to build the first program. Go to `Software/rom/01_lcd_test` folder and run:
+Now you need to build the first program. Go to `Software/01_lcd_test` folder and run:
 
 ```sh
 make
