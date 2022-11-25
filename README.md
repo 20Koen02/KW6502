@@ -1,5 +1,7 @@
 # KW6502 - Koen van Wijngaarden's 6502 Computer
 
+https://koen02.nl/blog/kw6502
+
 This repository contains some of the work in progress during my build of Ben Eater's inspired 6502 8-bit computer similar 
 to typical machines of the early 1980s. If you haven't seen Ben's videos, I would strongly suggest you start there:
 [Ben Eater's 6502 project](https://eater.net/6502)
