@@ -13,6 +13,16 @@ This documentation provides necessary insight into software provided in the repo
 7. [Hello World C](07_hello_world_c): This program is written in C and puts "Hello, world!" on the LCD
 8. [Microsoft Basic](08_ms_basic): OSI 6502 BASIC VERSION 1.0 REV 3.2, COPYRIGHT 1977 BY MICROSOFT CO.
 
+
+## Setting up development environment on MacOS
+
+```
+brew install minipro cc65
+```
+
+To write a bin file to the eeprom use this command: `minipro -p AT28C256 -w rom.bin`
+
+
 ## Setting up development environment on Windows
 
 One important thing to note is that you might need to install FTDI Virtual COM Port drivers.
