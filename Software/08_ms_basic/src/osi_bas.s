@@ -15,7 +15,7 @@
 ; 4. ROM start set to $C000
 ; 5. Second letter of error messages back to ASCII value (instead of $80+val)
 ; ==================================================================================
-; MODIFIED BY KOEN VAN WIJNGAARDEN 2021:
+; MODIFIED BY KOEN 2021:
 ; 1. ROM start set to $8000
 ; 2. SERIAL IO set to $6000
 ; 3. Modified serial routines
