@@ -37,7 +37,7 @@
 ; Modified to VASM oldstyle syntax to run on a Ben Eater 6502 SBC
 ; w/ ACIA at $4000 by Kris Foster, March 2020
 ;
-; Modified to CA65 syntax with configurable cfg by Koen van Wijngaarden, February 2021
+; Modified to CA65 syntax with configurable cfg by Koen02, February 2021
 ;
 
 main:
