@@ -1,4 +1,4 @@
-# KW6502 - Koen van Wijngaarden's 6502 Computer
+# KW6502 - Koen's 6502 Computer
 
 https://koen02.nl/blog/kw6502
 
